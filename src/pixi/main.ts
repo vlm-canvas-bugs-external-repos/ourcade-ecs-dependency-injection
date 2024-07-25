@@ -20,3 +20,4 @@ app.ticker.add((dt) => {
 startGame()
 
 document.getElementById('app')?.appendChild(app.view)
+window.__PIXI_APP__ = app;
